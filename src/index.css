@@ -114,16 +114,20 @@ code {
   display: flex;
   gap: 1rem;
   list-style: none;
-  padding: 2;
-  margin: 1;
+  padding: 1rem 1rem;
+  margin: 1rem 1rem;
   justify-content: center;
 }
 
 img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 #login {
   max-width: 5%;
   align-self: center;
+}
+
+.thumbnail {
+  max-width: 125px;
 }

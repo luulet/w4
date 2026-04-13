@@ -17,7 +17,7 @@ const SingleView = (props) => {
         <h3>{item.title}</h3>
         <p>{item.description || 'No description.'}</p>
         {item.media_type.startsWith('image/') && (
-            <img src={item.filename} alt={item.title} />
+            <img src={item.thumbnail} alt={item.title} />
         )}
         {item.media_type.startsWith('video/') && (
             <video src={item.filename} controls>
