@@ -109,3 +109,21 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 2;
+  margin: 1;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+#login {
+  max-width: 5%;
+  align-self: center;
+}

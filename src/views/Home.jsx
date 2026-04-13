@@ -1,6 +1,6 @@
 import {useState} from 'react';
-import MediaRow from './MediaRow';
-import SingleView from './SingleView';
+import MediaRow from '../components/MediaRow.jsx';
+import SingleView from '../components/SingleView.jsx';
 const mediaArray = [
   {
     media_id: 8,
@@ -43,7 +43,7 @@ const Home = () => {
 
   return (
       <>
-        <h2>My Media</h2>
+        <h1>Media</h1>
         {selectedItem && (
             <SingleView item={selectedItem} setSelectedItem={setSelectedItem} />
         )}
