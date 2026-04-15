@@ -1,1 +1,1 @@
-# [View](https://users.metropolia.fi/~sampowes/wsk-hooks/) in browser
+# [View](https://users.metropolia.fi/~sampowes/wsk-custom-hooks/) in browser
