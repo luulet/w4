@@ -15,6 +15,7 @@ const Single = () => {
     <div>
       <button onClick={() => navigate(-1)}>Back</button>
       <h2>{item.title}</h2>
+      <p>Owner: {item.username}</p>
       <img src={item.filename} alt={item.title} />
       <p>{item.description}</p>
     </div>

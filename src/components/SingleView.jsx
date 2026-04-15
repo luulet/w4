@@ -15,6 +15,7 @@ const SingleView = (props) => {
           Sulje
         </button>
         <h3>{item.title}</h3>
+        <p>Owner: {item.username}</p>
         <p>{item.description || 'No description.'}</p>
         {item.media_type.startsWith('image/') && (
             <img src={item.thumbnail} alt={item.title} />
