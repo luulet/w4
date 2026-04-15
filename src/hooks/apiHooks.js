@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { fetchData } from '../src/utils/fetchData.js';
+import { fetchData } from '../utils/fetchData.js';
 
 const useMedia = () => {
   const [mediaArray, setMediaArray] = useState([]);
